@@ -1,0 +1,126 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.triangle{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-color: rgb(243, 247, 255);
+    z-index: -1;
+    rotate: 45deg;
+    border-radius: 20px;
+    top:50%;
+    left: -130px;
+
+}
+.container {
+    /* border: 4px soli/d; */
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* text-align: center; */
+    justify-content: center;
+    
+  }
+
+  .box{
+    width: 43%;
+    /* border: 4px solid; */
+    padding: 22px;
+    /* display: flex;
+    justify-content: center; */
+    height: 67dvh;
+    border-radius: 20px;
+    
+  }
+
+  img{
+    margin: auto;
+    width: 90%;
+
+  }
+p{
+    color: rgb(182, 182, 182);
+}
+h1{
+    /* display: block; */
+    width: 40%;
+    text-align: center;
+    padding: 40px;
+    /* color: rgb(2, 0, 137); */
+    color: rgb(0, 60, 138);
+
+}
+h2{
+color: rgb(0, 60, 138);
+
+}
+
+  .blue{
+    background-color: rgb(233, 241, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sandy{
+    background-color: rgb(255, 247, 228);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon{
+    width: 23px;
+    display: block;
+  }
+
+  .textcontent{
+        display:flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-wrap: wrap;
+        /* height: 100vh;  */
+        /* padding: 10px; */
+  }
+
+  .layout{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 90%;   
+    justify-content: center;
+    color: rgb(182, 182, 182);
+
+    padding: 30px 0px;
+    
+    
+  }
+  .item{
+    font-size:30px;
+    padding: 10px 35px;
+    box-shadow:2px 2px 8px 2px rgb(0,0,0,0.1);
+  }
+  .lo{
+    display: flex;
+    align-items: center;
+flex-wrap: wrap;
+    justify-content: center;
+    /* width: 80%; */
+  }
+
+  .columnbox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+
+  }
+
+  .texto{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
